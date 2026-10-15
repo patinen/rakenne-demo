@@ -1,0 +1,36 @@
+.split-heading h2,
+.work-heading h2,
+.about h2,
+.contact h2 {
+  max-width: 12ch;
+  font-size: clamp(42px, 5.4vw, 88px);
+  letter-spacing: -0.025em;
+  line-height: 1.02;
+  text-transform: none;
+}
+
+.hero h1 {
+  letter-spacing: -0.045em;
+}
+
+.section-top {
+  margin-bottom: clamp(34px, 4vw, 54px);
+}
+
+.eyebrow,
+.technical {
+  letter-spacing: 0.1em;
+}
+
+.service-card:nth-child(2) {
+  background: #e5e5dc;
+}
+
+@media (max-width: 550px) {
+  .split-heading h2,
+  .work-heading h2,
+  .about h2,
+  .contact h2 {
+    font-size: clamp(36px, 10vw, 54px);
+  }
+}
